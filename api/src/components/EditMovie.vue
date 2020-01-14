@@ -293,6 +293,8 @@ export default {
 label {
   font-weight: bold;
   font-size: 20px;
+  display: inline-block;
+  width: 130px;
 }
 .numbers {
   width: 35px;
