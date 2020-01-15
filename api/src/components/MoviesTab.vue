@@ -25,7 +25,8 @@
           <td><p v-for="genr in movie.genre" :key="genr">{{ genr }}</p></td> <!-- Use 'genre' array to display all the genres of the movie as strings -->
           <td style="text-align: left">{{ movie.synopsis }}</td>
           <td>{{ movie.date }}</td>
-          <td>{{ movie.status }}</td>
+          <!-- backgroundColor(class) considering his status -->
+          <td :class="{ standBy: movie.status == 'En attente', published: movie.status == 'Publié', revoked: movie.status == 'Retiré' }">{{ movie.status }}</td>
           <td>
             <font-awesome-icon icon="edit" class="edit" @click="editing(movie.id)" />
             <font-awesome-icon icon="trash-alt" class="trash" @click="deleting(movie.title, movie.id)" />
@@ -153,5 +154,14 @@ p {
   color:#2f3072;
   cursor: pointer;
   font-size: 20px;
+}
+.standBy {
+  background-color: #fff09b;
+}
+.published {
+  background-color: #b6ffb4;
+}
+.revoked {
+  background-color: #ffb4b4;
 }
 </style>

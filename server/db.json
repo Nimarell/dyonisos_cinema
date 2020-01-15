@@ -3,8 +3,10 @@
     {
       "title": "Star Wars, épisode IX : L'Ascension de Skywalker",
       "id": "82cc6140-9604-4b95-a010-cef2a52a3f87",
-      "week": "1210",
-      "month": "5521",
+      "week": 1210,
+      "month": 4521,
+      "year": 5510,
+      "all": 5510,
       "synopsis": "Star Wars, épisode IX : L'Ascension de Skywalker est un film américain de science-fiction de type space opera coécrit et réalisé par J. J. Abrams, sorti en 2019. Neuvième opus de la saga Star Wars, il fait suite à l'épisode VIII : Les Derniers Jedi.",
       "genre": [
         "Fantasy",
@@ -24,8 +26,10 @@
     {
       "title": "MIDWAY",
       "id": "3db96f03-350f-4ef4-a012-b23a02a827ae",
-      "week": "891",
-      "month": "564",
+      "week": 564,
+      "month": 891,
+      "year": 1560,
+      "all": 1560,
       "synopsis": "Après la débâcle de Pearl Harbor qui a laissé la flotte américaine dévastée, la marine impériale japonaise prépare une nouvelle attaque qui devrait éliminer définitivement les forces aéronavales restantes de son adversaire. La campagne du Pacifique va se jouer dans un petit atoll isolé du Pacifique nord : Midway.",
       "genre": [
         "Drame",
@@ -44,8 +48,10 @@
     {
       "title": "Last Christmas",
       "id": "c51df89d-e419-42aa-9e32-dc158f53d882",
-      "week": "567",
-      "month": "124",
+      "week": 567,
+      "month": 752,
+      "year": 752,
+      "all": 752,
       "synopsis": "Kate est une jeune femme qui enchaîne les mauvaises décisions. Sa dernière en date ? Celle d'avoir accepté de travailler comme lutin du Père Noël pour un grand magasin. Cependant, elle va y faire la rencontre de Tom, une rencontre qui va changer sa vie. Néanmoins, pour Kate, cela semble trop beau pour être vrai.",
       "genre": [
         "Drame",
@@ -64,8 +70,10 @@
     {
       "title": "The Last Girl",
       "id": "4ab070b2-5be7-4f13-a142-ad2ce4c4acd1",
-      "week": "435",
-      "month": "435",
+      "week": 0,
+      "month": 0,
+      "year": 0,
+      "all": 4236,
       "synopsis": "Au fin fond de la campagne anglaise, une base militaire héberge et retient prisonniers un groupe d'enfants peu ordinaires qui, malgré le fait d'avoir été infectés par un agent pathogène zombie qui a décimé la planète, demeurent capables de penser et de ressentir des émotions. Lorsque la base est attaquée, Melanie, qui semble être la plus surdouée d'entre eux, réussit à s'échapper en compagnie de son professeur, de deux soldats et d'une biologiste qui ne voit en elle qu'un cobaye.",
       "genre": [
         "Drame",
@@ -84,8 +92,10 @@
     {
       "title": "Joker",
       "id": "4efddf83-1c05-4094-aafa-8ddba6efde7a",
-      "week": "1035",
-      "month": "3674",
+      "week": 1035,
+      "month": 3674,
+      "year": 5789,
+      "all": 5789,
       "synopsis": "Dans les années 1980, à Gotham City, Arthur Fleck, un comédien de stand-up raté est agressé alors qu'il ère dans les rues de la ville déguisé en clown. Méprisé de tous et bafoué, il bascule peu à peu dans la folie pour devenir le Joker, un dangereux tueur psychotique.",
       "genre": [
         "Drame",
@@ -122,6 +132,10 @@
       "video": "",
       "synopsis": "Jumanji: Next Level, ou Jumanji : Le Prochain Niveau au Québec, est un film américain réalisé par Jake Kasdan, sorti en 2019. Il s'agit de la suite de Jumanji : Bienvenue dans la jungle, sorti en 2017.",
       "id": "a389f100-e7f9-45a4-95b1-9993ceaa810e",
+      "week": 678,
+      "month": 974,
+      "year": 3456,
+      "all": 3456,
       "status": "Publié"
     },
     {
@@ -146,6 +160,10 @@
       "video": "",
       "synopsis": "Même si le super espion Lance Sterling et le scientifique Walter Beckett ont des personnalités radicalement opposées, ils vont devoir unir leurs forces s'ils veulent sauver le monde. Lance est relax, cool et il a du style. Walter est tout l'inverse. Certes, il n'est pas très à l'aise en société, mais son intelligence et son génie créatif lui permettent d'imaginer les gadgets impressionnants que Lance utilise sur le terrain.",
       "id": "469bbf44-3167-493e-8ed6-e12b5ab2c00b",
+      "week": 442,
+      "month": 756,
+      "year": 756,
+      "all": 756,
       "status": "Publié"
     },
     {

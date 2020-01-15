@@ -173,7 +173,7 @@
 import axios from 'axios'
 
 export default {
-  name: 'Movies',
+  name: 'EditMovies',
   data () {
     return {
       loading: false,
