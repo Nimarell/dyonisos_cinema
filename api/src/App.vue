@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <NavigationSide/>
-    <NavigationTop/>
+    <NavigationTop style="z-index: 4"/>
     <router-view class="content"/>
   </div>
 </template>
