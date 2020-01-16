@@ -10,6 +10,40 @@
       </ul>
       <font-awesome-icon icon="times" class="close" @click="isOpen = false" />
     </div>
+    <!-- Daily Informations -->
+    <div class="wrapper">
+      <div class="info b">
+        <h2><font-awesome-icon icon="person-booth" /> Visites sur le site</h2>
+        <p>Aujourd'hui : <em>5453</em></p>
+        <hr>
+        <p>Semaine dernière: <em style="color: #b6ffb4">+ 56%</em></p>
+        
+      </div>
+      <div class="info v">
+        <h2><font-awesome-icon icon="money-check-alt" /> Bénéfices</h2>
+        <p>Aujourd'hui : <em>16023 €</em></p>
+        <hr>
+        <p>Semaine dernière: <em style="color: #b6ffb4">+ 16%</em></p>
+      </div>
+      <div class="info n">
+        <h2><font-awesome-icon icon="universal-access" /> Nombre de clients</h2>
+        <p>Aujourd'hui : <em>1456</em></p>
+        <hr>
+        <p>Semaine dernière: <em style="color: #b6ffb4">+ 15%</em></p>
+      </div>
+      <div class="info g">
+        <h2><font-awesome-icon icon="smile" /> Retours positifs</h2>
+        <p>Aujourd'hui : <em style="color: white">215</em></p>
+        <hr>
+        <p>Semaine dernière: <em style="color: red">- 26%</em></p>
+      </div>
+      <div class="info m">
+        <h2><font-awesome-icon icon="medal" /> Nouveaux fidèles</h2>
+        <p>Aujourd'hui : <em style="color: white">105</em></p>
+        <hr>
+        <p>Semaine dernière: <em style="color: red">- 7%</em></p>
+      </div>
+    </div>
     <!-- PieChart stats -->
     <pie-chart :data="chartData" :options="chartOptions" class="chart"></pie-chart>
     <!-- Menu to select which Top to show -->
@@ -38,33 +72,20 @@
         </tr>
       </td>
     </table>
-    <div class="wrapper">
-      <div class="info b">
-          <h2><font-awesome-icon icon="person-booth" /> Visite sur le site</h2>
-          <h3>Aujourd'hui :</h3>
-          <p>5453</p>
-      </div>
-      <div class="info v">
-          <h2><font-awesome-icon icon="money-check-alt" /> Profits</h2>
-          <h3>Aujourd'hui :</h3>
-          <p>21023 €</p>
-      </div>
-      <div class="info n"></div>
-      <div class="info g"></div>
-      <div class="todo"></div>
-    </div>
-    <a href="https://vue-chartjs.org/">Besoin de camembert ? (graphique)</a>
+  <todoList></todoList>
   </div>
 </template>
 
 <script>
 import PieChart from './PieChart.js'
 import axios from 'axios'
+import todoList from '@/components/todoList'
 
 export default {
   name: 'Dashboard',
   components: {
-    PieChart
+    PieChart,
+    todoList
   },
   data () {
     return {
@@ -206,65 +227,42 @@ h3 {
 }
 .info {
   border-radius: 15px;
-  width: 25em;
-  height: 13em;
+  width: 15em;
+  height: 10em;
   box-shadow: 3px 3px 3px grey;
   color: white;
   text-align: center;
+  margin: 0em 2em 2em 2em;
 }
 .info:hover {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 255, 255, 0.3))
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 255, 255, 0.2))
 }
 .info.b {
   background-color: #2F3072;
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
 }
 .info.v {
   background-color: #D94188;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 1;
 }
 .info.n {
   background-color: #191919;
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 2;
-  grid-row-end: 2;
 }
 .info.g {
   background-color: #9FA3A5;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 2;
+}
+.info.m {
+  background-color: #d1d2e8;
+}
+.info p {
+  margin: 0 1em;
+  text-align: left;
+}
+.info em {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: white;
 }
 .wrapper {
-  display: grid;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  margin: 2em 0;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  grid-template-columns: 25em 25em 45em;
-  grid-template-rows: 13em 13em;
-}
-.todo {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  background-color: #9FA3A5;
-  border-radius: 15px;
-  box-shadow: 3px 3px 3px grey;
-}
-.todo:hover {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255, 255, 255, 0.3))
+  display: inline-flex;
+  width: 100%;
 }
 </style>
