@@ -20,30 +20,30 @@
 
 <script>
 export default {
-    name: 'todoList',
-    data () {
-        return {
-            todos: [{
-                name: 'Valider les films en attentes',
-                completed: false
-            }, {
-                name: 'Lier les données au graphique camembert',
-                completed: false
-            }, {
-                name: 'Trouver un graphique camembert à intégrer au tableau de bord',
-                completed: true
-            }],
-            newTodo: ''
-        }
-    },
-    methods: {
-        addTodo: function () {
-            this.todos.push({
-                completed: false,
-                name: this.newTodo
-            })
-        }
+  name: 'todoList',
+  data () {
+    return {
+      todos: [{
+        name: 'Valider les films en attentes',
+        completed: false
+      }, {
+        name: 'Lier les données au graphique camembert',
+        completed: false
+      }, {
+        name: 'Trouver un graphique camembert à intégrer au tableau de bord',
+        completed: true
+      }],
+      newTodo: ''
     }
+  },
+  methods: {
+    addTodo: function () {
+      this.todos.push({
+        completed: false,
+        name: this.newTodo
+      })
+    }
+  }
 }
 </script>
 

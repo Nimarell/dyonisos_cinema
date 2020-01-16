@@ -17,7 +17,6 @@
         <p>Aujourd'hui : <em>5453</em></p>
         <hr>
         <p>Semaine dernière: <em style="color: #b6ffb4">+ 56%</em></p>
-        
       </div>
       <div class="info v">
         <h2><font-awesome-icon icon="money-check-alt" /> Bénéfices</h2>
