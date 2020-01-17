@@ -7,7 +7,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUser, faThLarge, faFilm, faCalendarAlt, faAward, faUsersCog, faEnvelope, faCog, faEdit, faTrashAlt, faTimes, faPersonBooth, faMoneyCheckAlt, faUniversalAccess, faSmile, faMedal } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
-library.add(faUser, faThLarge, faFilm, faCalendarAlt, faAward, faUsersCog, faEnvelope, faCog, faEdit, faTrashAlt, faTimes, faPersonBooth, faMoneyCheckAlt, faUniversalAccess, faSmile, faMedal )
+library.add(faUser, faThLarge, faFilm, faCalendarAlt, faAward, faUsersCog, faEnvelope, faCog, faEdit, faTrashAlt, faTimes, faPersonBooth, faMoneyCheckAlt, faUniversalAccess, faSmile, faMedal)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
