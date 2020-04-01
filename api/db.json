@@ -109,7 +109,7 @@
         "",
         "https://images-na.ssl-images-amazon.com/images/I/71wbalyU7tL._AC_SL1481_.jpg"
       ],
-      "status": "Publié"
+      "status": "En attente"
     },
     {
       "title": "Jumanji: Next Level",
@@ -165,49 +165,6 @@
       "year": 756,
       "all": 756,
       "status": "Publié"
-    },
-    {
-      "title": "Film test",
-      "originalTitle": "Original Test",
-      "poster": [
-        "",
-        "faux lien"
-      ],
-      "durationH": "3",
-      "durationM": "19",
-      "producer": "Yann",
-      "director": "Delorme",
-      "composer": "Moi meme",
-      "casting": null,
-      "genre": [
-        "Drame",
-        "Guerre"
-      ],
-      "date": "2020-04-11",
-      "video": "BA",
-      "synopsis": "Histoire123445657896",
-      "status": "En attente",
-      "id": "81d004df-16a0-43fd-b904-fec18ab89dd7"
-    },
-    {
-      "title": "retiré",
-      "originalTitle": "Original Test",
-      "poster": [],
-      "durationH": "1",
-      "durationM": "15",
-      "producer": "fdgfdg",
-      "director": "sd",
-      "composer": "sd",
-      "casting": null,
-      "genre": [
-        "Espionnage",
-        "Thriler"
-      ],
-      "date": "2018-11-15",
-      "video": null,
-      "synopsis": "ytcyicyitctvçvuhbbbbbbbhhhhhhhhhhhj",
-      "status": "En attente",
-      "id": "e69c5914-a094-4e83-8504-39ef8e9994c3"
     }
   ],
   "users": [
